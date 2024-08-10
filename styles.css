@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+ body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: beige;
+            margin: 0;
+        }
+        .main{
+            background-color: aquamarine;
+            width: 400px;
+            padding: 20px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+        .image{
+            width: 150px;
+            border-radius: 5px;
+        }
+
+        .btn{
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f76c6c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
